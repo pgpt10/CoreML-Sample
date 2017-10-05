@@ -12,6 +12,7 @@
 		BDCF7E321F863DB000F681D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCF7E301F863DB000F681D7 /* Main.storyboard */; };
 		BDCF7E341F863DB000F681D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCF7E331F863DB000F681D7 /* Assets.xcassets */; };
 		BDCF7E371F863DB000F681D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCF7E351F863DB000F681D7 /* LaunchScreen.storyboard */; };
+		BDCF7E3F1F86419900F681D7 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BDCF7E3E1F86413B00F681D7 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BDCF7E331F863DB000F681D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDCF7E361F863DB000F681D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDCF7E381F863DB000F681D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDCF7E3E1F86413B00F681D7 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		BDCF7E201F863DB000F681D7 = {
 			isa = PBXGroup;
 			children = (
+				BDCF7E3E1F86413B00F681D7 /* Inceptionv3.mlmodel */,
 				BDCF7E2B1F863DB000F681D7 /* CoreMLSample */,
 				BDCF7E2A1F863DB000F681D7 /* Products */,
 			);
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDCF7E2F1F863DB000F681D7 /* ViewController.swift in Sources */,
+				BDCF7E3F1F86419900F681D7 /* Inceptionv3.mlmodel in Sources */,
 				BDCF7E2D1F863DB000F681D7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,10 +279,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z3QQ492P6Z;
+				DEVELOPMENT_TEAM = 295M57239Z;
 				INFOPLIST_FILE = CoreMLSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.infoedge.CoreMLSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.payalgupta.CoreMLSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,10 +295,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z3QQ492P6Z;
+				DEVELOPMENT_TEAM = 295M57239Z;
 				INFOPLIST_FILE = CoreMLSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.infoedge.CoreMLSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.payalgupta.CoreMLSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
